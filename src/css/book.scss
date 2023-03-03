@@ -1,0 +1,75 @@
+.book{
+  background: #F5F5F5;
+  padding: 126px 0 150px;
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 48.08%;
+    right: 48.08%;
+    top: 200px;
+    background: #FFCA42;
+  }
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B3764;
+    margin-bottom: 100px;
+  }
+}
+.book__content{
+  display: flex;
+  justify-content: space-between;
+}
+.book__info{
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  &__right{
+    &__title{
+      font-family: 'Cardo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      letter-spacing: 0.32px;
+      color: #1B3764;
+    }
+    &__price{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 33px;
+      color: #FFCA42;
+      margin: 7px 0 17px;
+    }
+    &__text{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 28px;
+      color: #969AA0;
+    }
+    &__sub{
+      font-family: 'Cardo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: #1B3764;
+      margin: 13px 0 37px;
+    }
+    &__btn{
+      background: transparent;
+      border: 2px solid #FFCA42;
+    }
+  }
+}

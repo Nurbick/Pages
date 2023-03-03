@@ -1,0 +1,65 @@
+.start{
+  background: #1B3764;
+  padding: 100px 0 100px;
+  &__content{
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+  }
+  &__left{
+    width: 50%;
+    &__sub{
+      font-family: 'Cardo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 36px;
+      letter-spacing: 1.2px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+    }
+    &__title{
+      font-family: 'Cardo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 78px;
+      letter-spacing: 1.3px;
+      color: #FFFFFF;
+      margin: 10px 0 24px;
+    }
+    &__text{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #B4C7E7;
+      margin-bottom: 42px;
+    }
+    &__btn-link{
+      display: flex;
+      column-gap: 51px;
+      align-items: center;
+    }
+  }
+  &__link{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+      transition: .5s;
+      transform: scale(1.3);
+    }
+  }
+
+}

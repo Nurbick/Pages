@@ -1,0 +1,106 @@
+.author{
+  background: #F5F8FC;
+  padding: 150px 0 169px;
+  &__left{
+    width: 50%;
+    position: relative;
+    &__img{
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+    }
+    &__obj{
+      position: absolute;
+      left: 50px;
+      top: 50px;
+      z-index: 2;
+    }
+  }
+  &__right{
+    width: 50%;
+    &__title{
+      font-family: 'Cardo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 50px;
+      text-transform: capitalize;
+      color: #1B3764;
+      padding-top: 60px;
+    }
+    &__line{
+      margin: 23px 0 33px;
+    }
+    &__text{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 34px;
+      color: #969AA0;
+    }
+  }
+}
+.author__content{
+  display: flex;
+  justify-content: space-between;
+}
+.author__stat{
+  display: flex;
+  justify-content: space-between;
+}
+.author__blank__title{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 77px;
+  color: #1B3764;
+  padding-bottom: 1px;
+}
+.author__blank__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #969AA0;
+}
+.author__card{
+  margin-top: 54px;
+  width: 484px;
+  height: 161px;
+  background: #1B3764;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 16px;
+}
+.card__name{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFCA42;
+}
+.card__mail{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.19px;
+  color: #B4C7E7;
+  margin: 10px 0 4px;
+}
+.card__phone{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.19px;
+  color: #B4C7E7;
+}

@@ -1,0 +1,44 @@
+.get{
+  background: #1B3764;
+  padding: 70px 0 70px;
+}
+.get__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.get__left{
+  width: 50%;
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  &__line{
+    margin: 24px 0 27px;
+  }
+  &__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #B4C7E7;
+    margin-bottom: 27px;
+  }
+  &__btn{
+    border: 2px solid #FFCA42;
+    background: transparent;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.38px;
+    color: #FFFFFF;
+  }
+}

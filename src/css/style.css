@@ -1,0 +1,1228 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Inter&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  color: #1B3764;
+  padding: 19px 52px;
+  background: #FFCA42;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+@media (max-width: 1024px) {
+  button {
+    font-size: 11px;
+    padding: 10px 42px;
+  }
+  .author__left__img {
+    width: 95%;
+    -webkit-transform: translate(0, 70px);
+            transform: translate(0, 70px);
+  }
+  .author__left__obj {
+    display: none;
+  }
+  .author__right__text {
+    font-size: 17px;
+  }
+  .author__blank__text {
+    font-size: 15px;
+  }
+  .learn__right__img {
+    -webkit-transform: scale(0.9) translate(-66px, -30px);
+            transform: scale(0.9) translate(-66px, -30px);
+  }
+  .learn__right {
+    -webkit-transform: scaleY(0.9);
+            transform: scaleY(0.9);
+  }
+  .learn__card__text {
+    font-size: 19px;
+  }
+  .header__link {
+    font-size: 11px;
+  }
+  .header__icon {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+.header {
+  background: #1B3764;
+  padding: 22px 0 22px 0;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__nav__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 38px;
+     -moz-column-gap: 38px;
+          column-gap: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__nav__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.header__icon {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header__icon:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 47px;
+     -moz-column-gap: 47px;
+          column-gap: 47px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.17px;
+  color: #FFCA42;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.header__link:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__bin {
+  margin: 0 51px 0 39px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header__bin:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.start {
+  background: #1B3764;
+  padding: 100px 0 100px;
+}
+.start__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.start__left {
+  width: 50%;
+}
+.start__left__sub {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.start__left__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 1.3px;
+  color: #FFFFFF;
+  margin: 10px 0 24px;
+}
+.start__left__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #B4C7E7;
+  margin-bottom: 42px;
+}
+.start__left__btn-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 51px;
+     -moz-column-gap: 51px;
+          column-gap: 51px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.start__link {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.38px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.start__link:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.book {
+  background: #F5F5F5;
+  padding: 126px 0 150px;
+  position: relative;
+}
+.book::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 48.08%;
+  right: 48.08%;
+  top: 200px;
+  background: #FFCA42;
+}
+.book__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+  margin-bottom: 100px;
+}
+
+.book__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.book__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.book__info__right__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.32px;
+  color: #1B3764;
+}
+.book__info__right__price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  color: #FFCA42;
+  margin: 7px 0 17px;
+}
+.book__info__right__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #969AA0;
+}
+.book__info__right__sub {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1B3764;
+  margin: 13px 0 37px;
+}
+.book__info__right__btn {
+  background: transparent;
+  border: 2px solid #FFCA42;
+}
+
+.author {
+  background: #F5F8FC;
+  padding: 150px 0 169px;
+}
+.author__left {
+  width: 50%;
+  position: relative;
+}
+.author__left__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+.author__left__obj {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  z-index: 2;
+}
+.author__right {
+  width: 50%;
+}
+.author__right__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #1B3764;
+  padding-top: 60px;
+}
+.author__right__line {
+  margin: 23px 0 33px;
+}
+.author__right__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  color: #969AA0;
+}
+
+.author__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.author__stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.author__blank__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 77px;
+  color: #1B3764;
+  padding-bottom: 1px;
+}
+
+.author__blank__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #969AA0;
+}
+
+.author__card {
+  margin-top: 54px;
+  width: 484px;
+  height: 161px;
+  background: #1B3764;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 20px 16px;
+}
+
+.card__name {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFCA42;
+}
+
+.card__mail {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.19px;
+  color: #B4C7E7;
+  margin: 10px 0 4px;
+}
+
+.card__phone {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.19px;
+  color: #B4C7E7;
+}
+
+.trusted {
+  background: #FFFFFF;
+  padding: 130px 0 126px;
+}
+.trusted__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+.trusted__line-h1 {
+  padding: 23px 0 50px;
+  text-align: center;
+}
+.trusted__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 35px;
+     -moz-column-gap: 35px;
+          column-gap: 35px;
+}
+
+.trusted__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(25% - 26.25px);
+  padding: 0 8px;
+}
+.trusted__card__img {
+  text-align: center;
+}
+.trusted__card__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #1B3764;
+  margin: 19px 0 19px;
+}
+.trusted__card__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  color: #969AA0;
+}
+
+.get {
+  background: #1B3764;
+  padding: 70px 0 70px;
+}
+
+.get__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.get__left {
+  width: 50%;
+}
+.get__left__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.get__left__line {
+  margin: 24px 0 27px;
+}
+.get__left__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #B4C7E7;
+  margin-bottom: 27px;
+}
+.get__left__btn {
+  border: 2px solid #FFCA42;
+  background: transparent;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.38px;
+  color: #FFFFFF;
+}
+
+.learn {
+  padding: 136px 0 140px;
+  background: #F5F5F5;
+}
+
+.learn__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+  margin-bottom: 116px;
+}
+
+.learn__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 109px;
+     -moz-column-gap: 109px;
+          column-gap: 109px;
+}
+
+.learn__left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.learn__left__card {
+  width: calc(50% - 15px);
+  padding: 30px 0 0 30px;
+  background: #F4F8FF;
+}
+
+.learn__card__number {
+  padding: 8px 13px;
+  border-radius: 100px;
+}
+.learn__card__number:hover {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.learn__card__text {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1B3764;
+  margin-top: 30px;
+}
+
+.learn__right {
+  border: 10px solid #FFCA42;
+  width: 555px;
+  height: 652px;
+  position: relative;
+}
+.learn__right__img {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+.know {
+  padding: 116px 130px;
+  background: #F4F8FF;
+}
+.know__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 23px;
+  margin-bottom: 70px;
+}
+.know__title__underline {
+  width: 50px;
+  height: 3px;
+}
+
+.know__content-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.know__card {
+  width: calc(50% - 15px);
+  background: #FFFFFF;
+  padding: 40px 62px 40px 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.know__card:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: 5px solid #FFCA42;
+}
+.know__card__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1B3764;
+}
+.know__card__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  color: #969AA0;
+  margin: 21px 0 10px;
+}
+.know__card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 45px;
+     -moz-column-gap: 45px;
+          column-gap: 45px;
+}
+
+.know__card__char {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  color: #1B3764;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.know__card__id {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #969AA0;
+}
+
+.know__card__point {
+  background: #FFCA42;
+  border-radius: 100px;
+  width: 16px;
+  height: 16px;
+}
+
+.know__content {
+  text-align: center;
+}
+
+.know__btn {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  color: #1B3764;
+  margin: 70px auto 34px;
+}
+
+.know__desk {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #969AA0;
+}
+
+.know__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.know__contact__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.19px;
+  color: #1B3764;
+}
+.know__contact__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  color: #969AA0;
+}
+
+.readers {
+  padding: 120px 0 130px;
+  background: #F5F5F5;
+}
+
+.readers__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 62px;
+     -moz-column-gap: 62px;
+          column-gap: 62px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.readers__left {
+  width: 467px;
+}
+.readers__left__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+.readers__left__line {
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  background: #FFCA42;
+  left: 0;
+  top: 230px;
+}
+.readers__left__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  color: #969AA0;
+  margin: 59px 0 22px;
+}
+.readers__left__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  margin-bottom: 10px;
+}
+.readers__left__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1B3764;
+}
+
+.readers__rating-num {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1B3764;
+}
+
+.readers__rating__ex {
+  cursor: pointer;
+}
+
+.readers__right {
+  width: 802px;
+  height: 634px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.readers__right__card {
+  background: #1B3764;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.11);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.11);
+  width: calc(50% - 10px);
+  height: calc(50% - 10px);
+  padding: 30px 56px 24px 35px;
+}
+
+.readers__card__reader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.readers__card__name {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.readers__card__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin: 20px 0 13px;
+}
+
+.readers__card__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #B4C7E7;
+}
+
+.updates {
+  padding: 120px 70px;
+  background: #FFFFFF;
+}
+
+.updates__content {
+  background: #FFCA42;
+  padding: 96px 0 117px;
+  position: relative;
+}
+
+.updates__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+
+.updates__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #1B3764;
+  margin: 50px 0 50px;
+}
+
+.updates__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+}
+
+.updates__input {
+  background: #FFFFFF;
+  border: 1px solid #DCE1E9;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+  width: 656px;
+  height: 70px;
+  padding: 20px 40px;
+}
+
+.updates__btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.18px;
+  color: #FFFFFF;
+  background: #1B3764;
+  border: 2px solid #1B3764;
+  padding: 19px 120px;
+}
+
+.update__line {
+  background: #1B3764;
+  height: 3px;
+  width: 50px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.footer {
+  background: #1B3764;
+  padding: 92px 70px 24px;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__icon {
+  margin-bottom: 24px;
+}
+
+.footer__pre-icon {
+  margin-right: 10px;
+}
+
+.footer-2 {
+  margin-left: 88px;
+}
+.footer-2__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.384px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.footer-2__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 9px;
+}
+.footer-2__list__item {
+  list-style-type: circle;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+}
+
+.footer-3 {
+  margin-left: 100px;
+}
+.footer-3__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.384px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.footer-3__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 9px;
+}
+.footer-3__list__item {
+  list-style-type: circle;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+}
+
+.footer-4 {
+  margin-left: 93px;
+}
+.footer-4__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.384px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.footer-4__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 9px;
+}
+.footer-4__list__item {
+  list-style-type: circle;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+}
+
+.footer__item__span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+  margin-left: 28px;
+}
+
+.footer__end {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.17px;
+  color: #FFFFFF;
+  margin-top: 95px;
+}

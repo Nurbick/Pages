@@ -1,0 +1,119 @@
+.footer{
+  background: #1B3764;
+  padding: 92px 70px 24px;
+}
+.footer__content{
+  display: flex;
+}
+.footer__icon{
+  margin-bottom: 24px;
+}
+.footer__pre-icon{
+  margin-right: 10px;
+}
+
+.footer-2{
+  margin-left: 88px;
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.384px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    &__item{
+      list-style-type: circle;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 31px;
+      letter-spacing: 0.18px;
+      color: #B4C7E7;
+    }
+  }
+}
+.footer-3{
+  margin-left: 100px;
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.384px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    &__item{
+      list-style-type: circle;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 31px;
+      letter-spacing: 0.18px;
+      color: #B4C7E7;
+    }
+  }
+}
+.footer-4{
+  margin-left: 93px;
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.384px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    &__item{
+      list-style-type: circle;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 31px;
+      letter-spacing: 0.18px;
+      color: #B4C7E7;
+    }
+  }
+}
+.footer__item__span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+  margin-left: 28px;
+}
+.footer__end{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.17px;
+  color: #FFFFFF;
+  margin-top: 95px;
+}

@@ -1,0 +1,52 @@
+.trusted{
+  background: #FFFFFF;
+  padding: 130px 0 126px;
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B3764;
+  }
+  &__line-h1{
+    padding: 23px 0 50px;
+    text-align: center;
+  }
+  &__content{
+    display: flex;
+    column-gap: 35px;
+  }
+}
+.trusted__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(25% - 26.25px);
+  padding: 0 8px;
+  &__img{
+    text-align: center;
+  }
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #1B3764;
+  margin: 19px 0 19px;
+  }
+  &__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    color: #969AA0;
+  }
+}

@@ -1,0 +1,113 @@
+.readers{
+  padding: 120px 0 130px;
+  background: #F5F5F5;
+}
+.readers__content{
+  display: flex;
+  column-gap: 62px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.readers__left{
+  width: 467px;
+  &__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #1B3764;
+  }
+  &__line{
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    background: #FFCA42;
+    left: 0;
+    top: 230px;
+  }
+  &__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    color: #969AA0;
+    margin: 59px 0 22px;
+  }
+  &__rating{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+  &__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1B3764;
+  }
+}
+.readers__rating-num{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1B3764;
+}
+.readers__rating__ex{
+  cursor: pointer;
+}
+.readers__right{
+  width: 802px;
+  height: 634px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__card{
+    background: #1B3764;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.11);
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    padding: 30px 56px 24px 35px;
+  }
+}
+.readers__card__reader{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.readers__card__name{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.readers__card__title{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin: 20px 0 13px;
+}
+.readers__card__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #B4C7E7;
+}
